@@ -18,13 +18,63 @@ body {
     display: flex;
 }
 
+.nav-padding {
+    padding: 0 1rem;
+}
+
+/* nav bar */
 nav {
     background-color: #000000;
     color: #6a6a6a;
-    width: 200px;
-    padding: 1rem;
+    width: 20vw;
+    height: 90vh;
 }
 
-ul img {
-    width: 20px;
+img[alt=logo] {
+    margin: 0.5rem 0;
+    width: 80%;
+}
+
+img[alt=home],
+img[alt=search],
+img[alt=libreria] {
+    height: 100%;
+}
+
+.border {
+    border-left: #adff2f 3px solid;
+    padding: 0 calc(1rem - 3px);
+}
+
+nav h3 {
+    text-transform: uppercase;
+}
+
+nav section:first-of-type {
+    height: 18vh;
+}
+
+.type-select>div {
+    height: calc((100% / 3) - 1rem);
+    align-items: center;
+}
+
+.type-select {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    height: 10vh;
+    background-color: #282828;
 }
