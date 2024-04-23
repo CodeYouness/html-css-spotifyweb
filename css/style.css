@@ -182,7 +182,8 @@ nav>span:first-child:after {
     color: white;
 }
 
-.music>main>section:first-of-type {
+.music>main>section:first-of-type,
+footer {
     justify-content: space-between;
 }
 
@@ -223,16 +224,39 @@ nav>span:first-child:after {
     padding: 0.5rem 0;
 }
 
-
-
-
-
-
-
-
-
-
+/* footer */
 footer {
+    padding: 0 1rem;
     height: 80px;
     background-color: #282828;
+}
+
+/* music section of footer */
+.name-music {
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.music-listening {
+    align-items: center;
+}
+
+.add-button i {
+    padding: 0 0.5rem;
+    font-size: 1rem;
+}
+
+footer h3,
+footer span {
+    font-size: 0.8rem;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer img {
+    height: 60%;
+
 }
