@@ -213,6 +213,10 @@ nav>span:first-child:after {
     margin-right: 1rem;
 }
 
+.third-row img {
+    border-radius: 50%;
+}
+
 .album h3 {
     font-size: 0.9rem;
     padding: 0.5rem 0;
