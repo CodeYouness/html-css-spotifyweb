@@ -27,7 +27,7 @@ ul {
 }
 
 /* nav bar */
-nav {
+aside {
     background-color: #000000;
     width: 180px;
     height: calc(100vh - 80px);
@@ -55,13 +55,13 @@ img[alt=libreria] {
     font-size: 0.8rem;
 }
 
-nav h3 {
+aside h3 {
     text-transform: uppercase;
     color: white;
     font-size: 0.9rem;
 }
 
-nav section:first-of-type {
+aside section:first-of-type {
     height: 100px;
 }
 
@@ -75,9 +75,13 @@ nav section:first-of-type {
     justify-content: space-evenly;
 }
 
-nav i {
+aside i {
     font-size: 30px;
     margin-right: 5px;
+}
+
+aside li {
+    padding: 0.4rem 0;
 }
 
 li:has(> i) {
