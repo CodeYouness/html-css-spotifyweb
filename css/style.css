@@ -78,13 +78,41 @@ nav section:first-of-type {
 nav i {
     font-size: 30px;
     margin-right: 5px;
-
 }
 
 li:has(> i) {
     align-items: center;
 }
 
+img[alt=download] {
+    width: 15px;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+img[alt=profile] {
+    background-color: #808080;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+}
+
+.playlist {
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc((100vh - 80px) - 156.5px);
+}
+
+hr {
+    margin: 0.8rem 0;
+}
+
+.profile {
+    color: white;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
 
 
 
