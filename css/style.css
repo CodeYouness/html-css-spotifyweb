@@ -124,6 +124,7 @@ hr {
     height: 70px;
     background-color: rgba(8, 11, 18, 0.5);
     position: fixed;
+    z-index: 1;
 }
 
 button {
@@ -141,10 +142,11 @@ button {
 }
 
 /* main content - nav */
-main>main {
+.overflow {
     background-color: #141922;
     width: calc(100vw - 180px);
-    overflow: scroll;
+    height: calc(100vh - 80px);
+    overflow: auto;
 }
 
 .music {
@@ -180,7 +182,7 @@ nav>span:first-child:after {
     color: white;
 }
 
-.music>main>section {
+.music>main>section:first-of-type {
     justify-content: space-between;
 }
 
@@ -202,8 +204,13 @@ nav>span:first-child:after {
 
 .album {
     margin: 1.5rem 0;
-    width: calc((100% / 6) - 1rem);
     text-align: center;
+    width: calc((100% / 6) - 1rem);
+}
+
+.second-row>.album,
+.third-row>.album {
+    margin-right: 1rem;
 }
 
 .album h3 {
