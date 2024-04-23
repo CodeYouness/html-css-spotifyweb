@@ -152,15 +152,25 @@ main>main {
 }
 
 nav>span {
-    color: #6a6a6a;
     text-transform: uppercase;
-    font-weight: 700;
-    padding: 0 1rem;
+    font-weight: 600;
+    padding: 1rem 1rem;
+    position: relative;
 }
 
 nav {
     text-align: center;
     padding: 1rem;
+}
+
+nav>span:first-child:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    border-bottom: #adff2f 3px solid;
 }
 
 
