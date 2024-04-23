@@ -180,6 +180,10 @@ nav>span:first-child:after {
     color: white;
 }
 
+.music>main>section {
+    justify-content: space-between;
+}
+
 .playbutton {
     position: relative;
 }
@@ -200,6 +204,11 @@ nav>span:first-child:after {
     margin: 1.5rem 0;
     width: calc((100% / 6) - 1rem);
     text-align: center;
+}
+
+.album h3 {
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
 }
 
 
