@@ -122,13 +122,14 @@ hr {
 .call-to-action {
     width: calc(100vw - 180px);
     height: 70px;
-    background-color: #080b12;
-    position: relative;
+    background-color: rgba(8, 11, 18, 0.5);
+    position: fixed;
 }
 
 button {
     color: white;
-    padding: 0.7rem 2rem;
+    font-size: 0.7rem;
+    padding: 0.6rem 2rem;
     background-color: #080b12;
     border: 1px solid white;
     border-radius: 20px;
@@ -139,6 +140,28 @@ button {
     transform: translateY(-50%);
 }
 
+/* main content - music */
+main>main {
+    background-color: #141922;
+    width: calc(100vw - 180px);
+    overflow: scroll;
+}
+
+.music {
+    padding-top: 70px;
+}
+
+nav>span {
+    color: #6a6a6a;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 1rem;
+}
+
+nav {
+    text-align: center;
+    padding: 1rem;
+}
 
 
 
