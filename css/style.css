@@ -156,7 +156,7 @@ button {
 nav>span {
     text-transform: uppercase;
     font-weight: 600;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     margin: 1rem 0;
     position: relative;
 }
@@ -310,3 +310,12 @@ section>.music-lenght {
     padding: 0.5rem;
     color: white;
 }
+
+/* mediaquery Medium */
+@media screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* Mediaquery Small */
+@media screen and (min-width: 576px) and (max-width: 767px) {}
+
+/* Mediaquery XSmall */
+@media screen and (max-width: 575px) {}
