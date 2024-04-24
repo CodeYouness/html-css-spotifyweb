@@ -156,7 +156,7 @@ button {
 nav>span {
     text-transform: uppercase;
     font-weight: 600;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
     margin: 1rem 0;
     position: relative;
 }
@@ -319,16 +319,35 @@ section>.music-lenght {
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .album {
         width: calc((100% / 4) - 1rem);
+        margin-right: 1rem;
     }
 
     .music>main>section:first-of-type {
         flex-wrap: wrap;
-
+        justify-content: left;
     }
 }
 
 /* Mediaquery Small */
-@media screen and (min-width: 576px) and (max-width: 767px) {}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    nav>span {
+        padding: 0 0.5rem;
+    }
+
+    .add-button {
+        flex-direction: column;
+    }
+
+    .album {
+        width: calc((100% / 2) - 1rem);
+        margin-right: 1rem;
+    }
+
+    .music>main>section:first-of-type {
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+}
 
 /* Mediaquery XSmall */
 @media screen and (max-width: 575px) {}
