@@ -374,6 +374,19 @@ section>.music-lenght {
     }
 
     .none {
-        display: inline-block;
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+        padding-top: 0.5rem;
+    }
+
+    .playlist {
+        height: calc((100vh - 80px) - 134.5px);
+        justify-content: flex-end;
+    }
+
+    .border {
+        border-left: 0;
+        padding: 0 1rem;
     }
 }
