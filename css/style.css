@@ -329,7 +329,7 @@ section>.music-lenght {
 }
 
 /* Mediaquery Small */
-@media screen and (min-width: 576px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     nav>span {
         padding: 0 0.5rem;
     }
@@ -350,4 +350,30 @@ section>.music-lenght {
 }
 
 /* Mediaquery XSmall */
-@media screen and (max-width: 575px) {}
+@media screen and (max-width: 575px) {
+
+    .music-listening,
+    .volume {
+        width: 160px;
+    }
+
+    aside {
+        width: 50px;
+    }
+
+    .call-to-action {
+        width: calc(100vw - 50px);
+    }
+
+    .overflow {
+        width: calc(100vw - 50px);
+    }
+
+    .xs-none {
+        display: none;
+    }
+
+    .none {
+        display: inline-block;
+    }
+}
