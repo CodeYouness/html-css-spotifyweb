@@ -288,8 +288,12 @@ footer img {
 
 .playbt i {
     color: white;
+    font-size: 15px;
+    padding: 0 0.5rem 0.5rem;
+}
+
+#larger-bt {
     font-size: 20px;
-    padding: 0 1rem 0.8rem;
 }
 
 .reproduction-bt span {
@@ -312,7 +316,16 @@ section>.music-lenght {
 }
 
 /* mediaquery Medium */
-@media screen and (min-width: 768px) and (max-width: 991px) {}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .album {
+        width: calc((100% / 4) - 1rem);
+    }
+
+    .music>main>section:first-of-type {
+        flex-wrap: wrap;
+
+    }
+}
 
 /* Mediaquery Small */
 @media screen and (min-width: 576px) and (max-width: 767px) {}
