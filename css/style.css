@@ -296,9 +296,18 @@ footer img {
     margin: 0 1rem;
 }
 
-
+section>.music-lenght {
+    width: 100px;
+}
 
 .volume {
     flex-shrink: 0;
     width: 20%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.volume i {
+    padding: 0.5rem;
+    color: white;
 }
