@@ -241,8 +241,8 @@ footer {
 
 .music-listening {
     align-items: center;
-    width: 20%;
-    flex-shrink: 0;
+    width: 220px;
+
 }
 
 .add-button i {
@@ -264,7 +264,7 @@ footer img {
 }
 
 .reproduction-bt {
-    flex-shrink: 1;
+
     width: 40%;
     text-align: center;
 }
@@ -301,8 +301,7 @@ section>.music-lenght {
 }
 
 .volume {
-    flex-shrink: 0;
-    width: 20%;
+    width: 220px;
     justify-content: flex-end;
     align-items: center;
 }
