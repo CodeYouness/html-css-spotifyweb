@@ -284,6 +284,17 @@ footer img {
     width: 20%;
     height: 4px;
     border-radius: 2px;
+    position: relative;
+}
+
+.circle {
+    background-color: white;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    right: 0;
+    top: -2px;
 }
 
 .playbt i {
@@ -313,6 +324,32 @@ section>.music-lenght {
 .volume i {
     padding: 0.5rem;
     color: white;
+}
+
+/* Hover funtionality */
+.light-gray:hover {
+    background-color: lime;
+}
+
+.light-gray>.circle:hover {
+    display: block;
+}
+
+button:hover {
+    padding: 0.7rem 2.1rem;
+    font-size: 0.8rem;
+}
+
+.playbutton>i:hover {
+    display: block;
+}
+
+.white:hover {
+    color: white;
+}
+
+#larget-bt:hover {
+    font-size: 22px;
 }
 
 /* mediaquery Medium */
